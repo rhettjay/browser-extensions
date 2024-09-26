@@ -6,16 +6,17 @@
 	"manifest_version": 3,
 	"applications":{
 		"gecko": {
-			"id": "{654f6e1b-ab50-4274-b252-75f5b2d7dddf}",
+			"id": "654f6e1b-ab50-4274-b252-75f5b2d7dddf",
 			"strict_min_version": "126.0"
 		}
 	},
 	"developer": {
 		"name": "Rhett Bulkley",
+    "url": "https://github.com/rhettjay"
 	},
   "chrome_settings_overrides": {
 		"search_provider": {
-			"name": "GitHub",
+			"name": "github/byu-oit",
       "keyword": ":gh",
 			"search_url": "https://github.com/byu-oit?q={searchTerms}"
 		}

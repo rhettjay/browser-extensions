@@ -1,0 +1,24 @@
+{
+	"name": "TLDR; Search Engine",
+	"description": "TLDR; Search Engine for Firefox",
+	"version": "0.0.0",
+  "homepage_url": "https://github.com/rhettjay/browser-extensions",
+	"manifest_version": 3,
+	"applications":{
+		"gecko": {
+			"id": "654f6e1b-ab50-4274-b252-75f5b2d7dddf",
+			"strict_min_version": "126.0"
+		}
+	},
+	"developer": {
+		"name": "Rhett Bulkley",
+    "url": "https://github.com/rhettjay"
+	},
+  "chrome_settings_overrides": {
+		"search_provider": {
+			"name": "tldr;",
+      "keyword": ":tldr",
+			"search_url": "https://tldr.inbrowser.app/pages/common/{searchTerms}"
+		}
+	}
+}
